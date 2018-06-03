@@ -1,0 +1,119 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  	background: #ffccdd;
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+.container .header{
+	margin-top: 7px;
+}
+
+.container .content{
+	margin: auto;
+}
+
+.container .menu{
+	margin: 0;
+	padding: 0;
+}
+.container .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.container .menu li a{
+	text-decoration: none;
+	position: relative;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	transition: 0.7s all;
+	padding: 10px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.container .menu li a:before{
+	content: '';
+	width: 30px;
+	position: absolute;
+	border-bottom: 8px solid white;
+	bottom: 0;
+	right: 350px;
+	transition: 0.7s all;
+}
+.container .menu li a:hover:before{
+	right: 0;
+}
+
+.container .sidebar {
+	float: left; 
+	width: 20%; 
+	background-color: #d3748a;
+	border-right: 8px solid #f4436d;
+}
+.container .sidebar h5{
+	margin-top: 20px;
+	font-size: 120%;
+	color: white;
+	text-align: center;
+	border-bottom: 5px solid black;
+}
+.container .sidebar ul.menu-wrap li,a{
+	font-size: 100%;
+	color: white;
+	list-style: none;
+	text-align: justify;
+	position: relative;
+	z-index: 0;
+	margin-left: -20px;
+}
+.container .sidebar ul.menu-wrap li:hover{
+	background-color: black;
+	color: white;
+	width: 130px;
+	height: 30px;
+	margin: 0;
+	line-height: 30px;
+	border-radius: 5px; 
+	z-index: 1;
+}
+.container .sidebar ul.submenu-wrap{
+	display: none;
+	margin:0;
+	text-decoration: none;
+	background: black;
+	border-radius: 5px;
+	text-align: justify;
+}
+.container .sidebar ul.menu-wrap li:hover ul.submenu-wrap{
+	display: block;
+	position: absolute;
+	text-decoration: none;
+}
+.container .sidebar ul.submenu-wrap li{
+	display: block;
+	text-decoration: none;
+}
+
+.container .content .main {
+	float: right; 
+	width: 80%;
+	background-color: #f7abbe; 
+}
+.container .content .mainhome {
+	margin: 5px;
+}
+
+.container .footer {
+	margin-bottom: 7px; 
+}
